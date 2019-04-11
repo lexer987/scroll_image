@@ -4,15 +4,17 @@
   "manifest_version": 2,
   "description": "__MSG_appDescription__",
   "icons": {
-    "16": "images/icon-16.png",
-    "128": "images/icon-128.png"
+    "16": "images/picture-16.png",
+    "128": "images/picture-128.png"
   },
   "default_locale": "en",
   "background": {
     "scripts": [
       "scripts/chromereload.js",
-      "scripts/background.js"
-    ]
+      "scripts/background.js",
+      "hot-reload.js"
+    ],
+    "persistent": false
   },
   "permissions": [
     "tabs",
@@ -39,10 +41,9 @@
   ],
   "page_action": {
     "default_icon": {
-      "19": "images/icon-19.png",
-      "38": "images/icon-38.png"
+      "19": "images/picture-19.png",
+      "38": "images/picture-38.png"
     },
-    "default_title": "scroll_image",
-    "default_popup": "popup.html"
+    "default_title": "scroll_image"
   }
 }
