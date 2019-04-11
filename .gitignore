@@ -147,5 +147,5 @@ flycheck_*.el
 # network security
 /network-security.data
 
-
-
+# markdown
+.markdown-preview.html
