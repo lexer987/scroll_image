@@ -6,7 +6,7 @@ dist
 app/bower_components
 test/bower_components
 package
-app/scripts
+# app/scripts
 
 ### https://raw.github.com/github/gitignore/7eef17f37c63ce3cbddbdd154ff836f370d0ad70/Node.gitignore
 
